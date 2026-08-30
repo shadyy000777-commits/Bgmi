@@ -217,7 +217,6 @@ function buildRegistrationCompleteEmbed(data, slotNumber, group, scrimName) {
       `🎮 **Assigned Slot** — ${slotNumber}\n` +
       `🗓️ **Scrim** — ${scrimName}\n\n` +
       `${matchScheduleLines(group)}\n\n` +
-      'Please wait for the slot list to be posted.'
     )
     .setFooter({ text: 'Best of luck 👊 for your matches!!' });
 }
