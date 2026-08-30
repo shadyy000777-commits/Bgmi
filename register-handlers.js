@@ -115,7 +115,7 @@ function matchScheduleLines(group) {
     })
     .join('\n');
 
-  return `📅 **${isToday ? 'Today' : 'Tomorrow'}, ${dateLabel}**\n${lines}`;
+  return `🗓 **${isToday ? 'Today' : 'Tomorrow'}, ${dateLabel}**\n${lines}`;
 }
 
 function continueRow(customId, label) {
