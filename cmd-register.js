@@ -14,10 +14,10 @@ module.exports = {
       .setTitle('<:emoji_1759633286586:1538873940171038791> 𝐓𝐞𝐚𝐦 𝐑𝐞𝐠𝐢𝐬𝐭𝐫𝐚𝐭𝐢𝐨𝐧')
       .setColor(0x57F287)
       .setDescription(
-        'Click the button below to register your team for the scrim.\n\n' +
-        "Already verified through `/verify-panel`? You'll be able to reuse your saved team profile — " +
-        'no need to retype everything.\n\n' +
-        'Registration is open 24/7 — no need to wait for anything to open.'
+        'ℂ𝕝𝕚𝕔𝕜 𝕥𝕙𝕖 𝕓𝕦𝕥𝕥𝕠𝕟 𝕓𝕖𝕝𝕠𝕨 𝕥𝕠 𝕣𝕖𝕘𝕚𝕤𝕥𝕖𝕣 𝕪𝕠𝕦𝕣 𝕥𝕖𝕒𝕞 𝕗𝕠𝕣 𝕥𝕙𝕖 𝕤𝕔𝕣𝕚𝕞.\n\n' +
+        "Alreadʏ verified thrᎧuɢh `/verify-panel`? ʏᎧu'll be able tᎧ reuse ʏᎧur saved team prᎧfile — " +
+        'nᎧ need tᎧ retʏpe everʏthinɢ.\n\n' +
+        '𝗥𝗲𝗴𝗶𝘀𝘁𝗿𝗮𝘁𝗶𝗼𝗻 𝗶𝘀 𝗼𝗽𝗲𝗻 𝟮𝟰/𝟳 — 𝗻𝗼 𝗻𝗲𝗲𝗱 𝘁𝗼 𝘄𝗮𝗶𝘁 𝗳𝗼𝗿 𝗮𝗻𝘆𝘁𝗵𝗶𝗻𝗴 𝘁𝗼 𝗼𝗽𝗲𝗻.'
       );
 
     const row = new ActionRowBuilder().addComponents(
