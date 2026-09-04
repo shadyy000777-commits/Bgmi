@@ -55,7 +55,7 @@ function buildLiveGroupsPanel(store) {
   // heads-up date, not something registration logic depends on.
   const { relative, dateLabel } = dayLabelForBatch(scrim, dayBatchForLetter(letters[0]));
 
-  embed.setDescription(`📅 **${relative}, ${dateLabel}**\nRegistration never closes — keep registering, closed groups drop off and the next group slides in automatically.`);
+  embed.setDescription(`🗓 **${relative}, ${dateLabel}**\nRegistration never closes — keep registering.`);
 
   for (const letter of letters) {
     const { start, end } = slotRangeForGroup(letter, scrim.totalSlots);
