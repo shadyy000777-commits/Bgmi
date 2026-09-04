@@ -8,10 +8,9 @@ module.exports = {
 
   async execute(interaction) {
     const embed = new EmbedBuilder()
-      .setTitle('📝 Team Verification')
+      .setTitle('<:emoji_190:1545523513773789224> 𝐒𝐂𝐑𝐈𝐌𝐒 𝐕𝐄𝐑𝐈𝐅𝐈𝐂𝐀𝐓𝐈𝐎𝐍)
       .setColor(0xF5A623)
       .setDescription(
-        '<:emoji_190:1545523513773789224> 𝐒𝐂𝐑𝐈𝐌𝐒 𝐕𝐄𝐑𝐈𝐅𝐈𝐂𝐀𝐓𝐈𝐎𝐍\n\n' +
         '<:emoji_188:1545522300592595004> 𝑹𝒆𝒂𝒅𝒚 𝒕𝒐 𝒆𝒏𝒕𝒆𝒓 𝒕𝒉𝒆 𝒍𝒐𝒃𝒃𝒚? 𝑽𝒆𝒓𝒊𝒇𝒚 𝒚𝒐𝒖𝒓 𝒔𝒒𝒖𝒂𝒅 𝒂𝒏𝒅 𝒍𝒐𝒄𝒌 𝒚𝒐𝒖𝒓 𝒔𝒑𝒐𝒕 𝒃𝒆𝒇𝒐𝒓𝒆 𝒕𝒉𝒆 𝒔𝒍𝒐𝒕𝒔 𝒓𝒖𝒏 𝒐𝒖𝒕! \n\n' +
         '𝑽𝑬𝑹𝑰𝑭𝑰𝑪𝑨𝑻𝑰𝑶𝑵 𝑺𝑻𝑬𝑷𝑺\n\n' +
         '① 𝑷𝒓𝒆𝒔𝒔 𝑽𝑬𝑹𝑰𝑭𝒀 𝑯𝑬𝑹𝑬 𝒃𝒆𝒍𝒐𝒘\n' +
