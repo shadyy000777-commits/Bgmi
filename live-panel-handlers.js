@@ -123,7 +123,7 @@ function buildGroupHeaderEmbed(store, groupLetter) {
     .setTitle(`<a:emoji_14:1544290922043543552> ${groupDisplayName(groupLetter)} — Slot List`)
     .setColor(0x57F287)
     .setDescription(`Slots filled: **${filled}/${capacity}**\n${matchScheduleLines(groupLetter, store)}`)
-    .setFooter({ text: frozenRoster ? '🔒 Result posted — this slot list is now frozen' : 'Updates live as teams register into this group' })
+    .setFooter({ text: frozenRoster ? '<:emoji_191:1545549860592156753> Result posted — this slot list is now frozen' : 'Updates live as teams register into this group' })
     .setTimestamp();
 }
 
