@@ -11,7 +11,7 @@ module.exports = {
 
   async execute(interaction) {
     const embed = new EmbedBuilder()
-      .setTitle('📥 Team Registration')
+      .setTitle('<:emoji_1759633286586:1538873940171038791> 𝐓𝐞𝐚𝐦 𝐑𝐞𝐠𝐢𝐬𝐭𝐫𝐚𝐭𝐢𝐨𝐧')
       .setColor(0x57F287)
       .setDescription(
         'Click the button below to register your team for the scrim.\n\n' +
