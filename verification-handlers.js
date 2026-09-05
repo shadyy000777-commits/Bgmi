@@ -148,7 +148,8 @@ function buildVerifiedLogEmbed(data, teamNumber, ownerId, isEdit) {
       `<:PrXOwner:1543181913827582032> Owner - <@${ownerId}>\n` +
       `<a:emoji_9:1543560454331441242> City - ${data.city}\n\n` +
       `<a:emoji_2:1543555537235476490> **Players (IGN/UID)**\n${playerLines}\n\n` +
-      `<:emoji_193:1545643032097980476> WhatsApp: ${data.whatsapp} | <:emoji_194:1545643354216464384> ${data.owner_email}\n\n` +
+      `<:emoji_193:1545643032097980476> WhatsApp: ${data.whatsapp}\n` +
+      '<:emoji_194:1545643354216464384> ${data.owner_email}\n\n` +
       `<a:emoji_189:1545523471746990092> **Playing Lineup -** ${lineupLine}`
     )
     .setFooter({
