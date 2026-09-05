@@ -145,11 +145,11 @@ function buildVerifiedLogEmbed(data, teamNumber, ownerId, isEdit) {
     .setColor(isEdit ? 0x5865F2 : 0xF5A623)
     .setDescription(
       `<:emoji_8:1543560280729194526> ${teamNumber} : **TEAM ${data.team_name}**\n` +
-      `<a:emoji_184:1545519240839168111> Owner - <@${ownerId}>\n` +
+      `<:PrXOwner:1543181913827582032> Owner - <@${ownerId}>\n` +
       `<a:emoji_9:1543560454331441242> City - ${data.city}\n\n` +
       `<a:emoji_2:1543555537235476490> **Players (IGN/UID)**\n${playerLines}\n\n` +
       `📱 WhatsApp: ${data.whatsapp} | ✉️ ${data.owner_email}\n\n` +
-      `<:emoji_5:1543555657838624833> **Playing Lineup:** ${lineupLine}`
+      `<a:emoji_189:1545523471746990092> **Playing Lineup -** ${lineupLine}`
     )
     .setFooter({
       text: isEdit
