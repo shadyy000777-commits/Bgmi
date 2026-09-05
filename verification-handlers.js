@@ -141,7 +141,7 @@ function buildVerifiedLogEmbed(data, teamNumber, ownerId, isEdit) {
   const lineupLine = (data.selectedPlayerIds || []).map(id => `<@${id}>`).join(' ') || '_not selected_';
 
   return new EmbedBuilder()
-    .setTitle(isEdit ? '<:emoji_7:1543558072046194718> TEAM VERIFICATION — Team Updated' : '<a:emoji_14:1544290922043543552> TEAM VERIFICATION — Team Confirmed')
+    .setTitle(isEdit ? '<:emoji_7:1543558072046194718> TEAM VERIFICATION CONFIRMED' : '<a:emoji_14:1544290922043543552> TEAM VERIFICATION — Team Confirmed')
     .setColor(isEdit ? 0x5865F2 : 0xF5A623)
     .setDescription(
       `<:emoji_8:1543560280729194526> ${teamNumber} : **TEAM ${data.team_name}**\n` +
