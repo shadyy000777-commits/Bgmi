@@ -1,0 +1,21 @@
+{
+  "name": "bgmi-scrim-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for BGMI scrim team registration and slot allotment",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "deploy": "node deploy-commands.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "@discordjs/voice": "^0.18.0",
+    "@iamtraction/play-dl": "latest",
+    "opusscript": "^0.1.1",
+    "tweetnacl": "^1.0.3",
+    "ffmpeg-static": "^5.2.0"
+  }
+}
