@@ -87,7 +87,7 @@ client.once('ready', async () => {
   client.user.setPresence({
     activities: [{
       name: 'Custom Status', // required by the library but not displayed for Custom type
-      state: 'BGMI Scrims 24x7', // <-- edit this to whatever text you want shown
+      state: '🔥BGMI Scrims 24x7', // <-- edit this to whatever text you want shown
       type: ActivityType.Custom,
     }],
     status: 'online',
