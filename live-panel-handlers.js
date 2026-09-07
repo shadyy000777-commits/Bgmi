@@ -10,9 +10,9 @@ const { buildGroupAdminPanelRows } = require('./group-admin-panel');
 function fillCircle(filled, capacity) {
   if (capacity <= 0) return '⚪';
   const pct = filled / capacity;
-  if (pct >= 1) return '🔴';
-  if (pct >= 0.9) return '🟡';
-  return '🟢';
+  if (pct >= 1) return '<a:emoji_198:1546394323996909610>';
+  if (pct >= 0.9) return '<a:emoji_199:1546397349910417428>';
+  return '<a:emoji_197:1546394268166262835>';
 }
 
 function dotsBar(filled, capacity) {
