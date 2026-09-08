@@ -433,8 +433,8 @@ async function handleManageMatchesButton(interaction) {
 
   const row = new ActionRowBuilder().addComponents(
     new ButtonBuilder()
-      .setCustomId('register_Manage_slot')
-      .setLabel('change slot')
+      .setCustomId('register_cancel_slot')
+      .setLabel('Manage slot')
       .setEmoji('🔄')
       .setStyle(ButtonStyle.Secondary),
     new ButtonBuilder()
