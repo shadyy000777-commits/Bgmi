@@ -37,7 +37,7 @@ function buildGroupAdminPanelRows(groupLetter) {
   const changeSlotRow = new ActionRowBuilder().addComponents(
     new ButtonBuilder()
       .setCustomId(`group_change_slot:${groupLetter}`)
-      .setLabel('Change Slot')
+      .setLabel('Manage Slot')
       .setEmoji('🔄')
       .setStyle(ButtonStyle.Secondary),
   );
